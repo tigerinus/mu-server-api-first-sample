@@ -8,6 +8,10 @@
     <artifactId>mu-server-api-first-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <description>A sample project using mu-server, following API First design</description>
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>io.muserver</groupId>
